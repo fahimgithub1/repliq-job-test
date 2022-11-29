@@ -60,7 +60,7 @@ export default function Login(){
     const isLoggedIn = authCtx.isLogdedIn;
 
     return(
-        <WrapperWithNavber pageTitle={isLoggedIn ? "logout" : "Login"}>
+        <WrapperWithNavber pageTitle={isLoggedIn ? "Logout" : "Login"}>
 
 
             {!isLoggedIn && <div className="mt-4  w-[100%] ">
