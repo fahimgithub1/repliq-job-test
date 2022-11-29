@@ -8,114 +8,113 @@ const backIcon = <AiOutlineArrowLeft />
 const OrderInfo = [
     {
         id:1,
-        productName: "Barger",
+        productName: "Cheese",
         item: "2itmes",
-        price: '233',
-        date: 'Todaym, 04:27PM',
-        image: require('../assets/images/product2.jpg'),
+        price: '43',
+        date: 'Today, 04:27PM',
+        image: require('../assets/images/food.jpg'),
         status: "Paid"
     },
     {
         id: 2,
-        productName: "Barger",
+        productName: "Butter",
         item: "2itmes",
         price: '233',
-        date: 'Todaym, 04:27PM',
-        image: require('../assets/images/product2.jpg'),
+        date: 'Today, 04:27PM',
+        image: require('../assets/images/food1.jpg'),
         status: "Paid"
     },
     {
         id:3,
-        productName: "Barger",
+        productName: "Yogurt",
         item: "2itmes",
         price: '233',
-        date: 'Todaym, 04:27PM',
-        image: require('../assets/images/product2.jpg'),
+        date: 'Today, 04:27PM',
+        image: require('../assets/images/food2.jpg'),
         status: "Paid"
     },
     {
         id:4,
-        productName: "Barger",
+        productName: "Cottage cheese",
         item: "2itmes",
         price: '233',
-        date: 'Todaym, 04:27PM',
-        image: require('../assets/images/product2.jpg'),
+        date: 'Today, 04:27PM',
+        image: require('../assets/images/food3.jpg'),
         status: "Paid"
     },
     {
         id:5,
-        productName: "Barger",
+        productName: "Cream",
         item: "2itmes",
         price: '233',
-        date: 'Todaym, 04:27PM',
-        image: require('../assets/images/product2.jpg'),
+        date: 'Today, 04:27PM',
+        image: require('../assets/images/food4.jpg'),
         status: "Paid"
     },
     {
         id:6,
-        productName: "Barger",
+        productName: "Cream",
         item: "2itmes",
         price: '233',
-        date: 'Todaym, 04:27PM',
-        image: require('../assets/images/product2.jpg'),
+        date: 'Today, 04:27PM',
+        image: require('../assets/images/food5.jpg'),
         status: "Paid"
     },
     {
         id:7,
-        productName: "Barger",
+        productName: "Sandwich",
         item: "2itmes",
         price: '233',
-        date: 'Todaym, 04:27PM',
-        image: require('../assets/images/product2.jpg'),
+        date: 'Today, 04:27PM',
+        image: require('../assets/images/food6.jpg'),
         status: "Paid"
     },
     {
         id:8,
-        productName: "Barger",
+        productName: "Hamburger",
         item: "2itmes",
         price: '233',
-        date: 'Todaym, 04:27PM',
-        image: require('../assets/images/product2.jpg'),
+        date: 'Today, 04:27PM',
+        image: require('../assets/images/food7.jpg'),
         status: "Paid"
     },
     {
         id:9,
-        productName: "Barger",
+        productName: "Hot dog",
         item: "2itmes",
         price: '233',
-        date: 'Todaym, 04:27PM',
-        image: require('../assets/images/product2.jpg'),
+        date: 'Today, 04:27PM',
+        image: require('../assets/images/food8.jpg'),
         status: "Paid"
     },
     {
         id:10,
-        productName: "Barger",
+        productName: "Pizza",
         item: "2itmes",
         price: '233',
-        date: 'Todaym, 04:27PM',
-        image: require('../assets/images/product2.jpg'),
+        date: 'Today, 04:27PM',
+        image: require('../assets/images/food9.jpg'),
         status: "Paid"
     },
     {
         id:11,
-        productName: "Barger",
+        productName: "Roast chicken",
         item: "2itmes",
         price: '233',
-        date: 'Todaym, 04:27PM',
-        image: require('../assets/images/product2.jpg'),
+        date: 'Today, 04:27PM',
+        image: require('../assets/images/food10.jpg'),
         status: "Paid"
     },
     {
         id:12,
-        productName: "Barger",
+        productName: "Seafood",
         item: "2itmes",
         price: '233',
-        date: 'Todaym, 04:27PM',
-        image: require('../assets/images/product2.jpg'),
+        date: 'Today, 04:27PM',
+        image: require('../assets/images/food11.jpg'),
         status: "Paid"
     },
 ]
-
 export default function Orders(){
 
     return(
