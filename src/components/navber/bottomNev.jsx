@@ -3,8 +3,13 @@ import { BsPeopleFill } from 'react-icons/bs';
 import { MdProductionQuantityLimits } from 'react-icons/md';
 import { FaHammer } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import { useContext } from 'react';
+import AuthContext from '../../store/authContext';
 
 export default function BottomNav(){
+    const authCtx = useContext(AuthContext);
+
+    const isLoggedIn = authCtx.isLogdedIn;
 
     return(
         <div className="fixed bottom-0 left-0 bg-green border-t-[1px] border-black w-[100%] text-center p-3 px-5 text-4xl flex justify-between bg-blue-400 md:left-[calc((100%_-_475px)/2)] md:w-[475px]">
@@ -39,7 +44,8 @@ export default function BottomNav(){
             <div className='w-[20%] pl-1'>
                 <Link to='/'>
                     <AiOutlineUser className='text-center -mb-4 m-auto p-0 ' />
-                    <span className='text-base font-bold m-0 p-0 '>Login</span>
+                    {!isLoggedIn && <span className='text-base font-bold m-0 p-0 '>Login</span>}
+                    {isLoggedIn && <span className='text-base font-bold m-0 p-0 '>Logout</span>}
                 </Link>
             </div>
         </div>
